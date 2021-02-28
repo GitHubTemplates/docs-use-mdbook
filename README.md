@@ -117,8 +117,8 @@ docs-use-mdbook 遵循 [Contributor Covenant](http://contributor-covenant.org/ve
 
 [MIT © Bruce Maa.](LICENSE)
 
-[github-action-image]: https://github.com/GithubTemplate/docs-use-mdbook/workflows/mdbook/badge.svg
-[github-repo-url]: https://github.com/GithubTemplate/docs-use-mdbook
+[github-action-image]: https://github.com/GithubTemplate/docs-use-mdbook/actions/workflows/main.yml/badge.svg
+[github-repo-url]: https://github.com/GithubTemplate/docs-use-mdbook/actions/workflows/main.yml
 [license-image]: https://img.shields.io/badge/license-MIT-green.svg
 [github-repo-star-image]: https://img.shields.io/github/stars/GithubTemplate/docs-use-mdbook.svg?style=social
 [use-this-template]: https://img.shields.io/badge/-use%20this%20template-brightgreen.svg
