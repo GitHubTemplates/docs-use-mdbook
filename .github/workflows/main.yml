@@ -6,11 +6,11 @@ on:
       - master
 
 jobs:
-  build:
+  publish:
     name: publish
     strategy:
       matrix:
-        runs-on: [ubuntu-latest, macOS-latest, windows-latest]
+        runs-on: [ubuntu-latest]
       fail-fast: true
 
     runs-on: ${{ matrix.runs-on }}
