@@ -4,7 +4,6 @@
 [![license][license-image]](LICENSE)
 [![Github Star][github-repo-star-image]][github-repo-url]
 [![standard-readme compliant][standard-readme-image]](standard-readme-url)
-[![ViewCount](http://hits.dwyl.com/GitHubTemplates/docs-use-mdbook.svg)][github-repo-url]
 
 [背景](#背景) | [介绍](#介绍) | [使用](#使用) | [示例](#示例) | [相关仓库](#相关仓库) | [维护者](#维护者) | [如何贡献](#如何贡献) | [协议](#协议) | [English](README.en-US.md)
 
@@ -90,7 +89,7 @@ docs-use-mdbook
 或者使用`gh`命令行创建项目
 
 ```
-gh repo create myRepository -p GithubTemplate/docs-use-mdbook
+gh repo create myRepository -p GitHubTemplates/docs-use-mdbook
 ```
 
 ## 示例
@@ -107,7 +106,7 @@ gh repo create myRepository -p GithubTemplate/docs-use-mdbook
 
 ## 如何贡献
 
-非常欢迎你的加入！[提一个 Issue](https://github.com/GithubTemplate/docs-use-mdbook/issues/new) 或者提交一个 Pull Request。
+非常欢迎你的加入！[提一个 Issue](https://github.com/GitHubTemplates/docs-use-mdbook/issues/new) 或者提交一个 Pull Request。
 
 docs-use-mdbook 遵循 [Contributing](CONTRIBUTING.md) 编写规范。
 
@@ -117,11 +116,11 @@ docs-use-mdbook 遵循 [Contributor Covenant](http://contributor-covenant.org/ve
 
 [MIT © Bruce Maa.](LICENSE)
 
-[github-action-image]: https://github.com/GithubTemplate/docs-use-mdbook/actions/workflows/main.yml/badge.svg
-[github-repo-url]: https://github.com/GithubTemplate/docs-use-mdbook/actions/workflows/main.yml
+[github-action-image]: https://github.com/GitHubTemplates/docs-use-mdbook/actions/workflows/main.yml/badge.svg
+[github-repo-url]: https://github.com/GitHubTemplates/docs-use-mdbook/actions/workflows/main.yml
 [license-image]: https://img.shields.io/badge/license-MIT-green.svg
-[github-repo-star-image]: https://img.shields.io/github/stars/GithubTemplate/docs-use-mdbook.svg?style=social
+[github-repo-star-image]: https://img.shields.io/github/stars/GitHubTemplates/docs-use-mdbook.svg?style=social
 [use-this-template]: https://img.shields.io/badge/-use%20this%20template-brightgreen.svg
-[generate]: https://github.com/GithubTemplate/docs-use-mdbook/generate
+[generate]: https://github.com/GitHubTemplates/docs-use-mdbook/generate
 [standard-readme-image]: https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square
 [standard-readme-url]: https://github.com/RichardLitt/standard-readme

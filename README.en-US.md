@@ -89,7 +89,7 @@ click[![use this template][use-this-template]][generate]button, copy this reposi
 or use GitHub cli `gh`
 
 ```
-gh repo create myRepository -p GithubTemplate/docs-use-mdbook
+gh repo create myRepository -p GitHubTemplates/docs-use-mdbook
 ```
 
 ## Examples
@@ -106,7 +106,7 @@ Generally, the open source repository need to have some examples or codes for us
 
 ## Contributing
 
-Feel free to dive in![Open an Issue](https://github.com/GithubTemplate/docs-use-mdbook/issues/new) or submit PRs。
+Feel free to dive in![Open an Issue](https://github.com/GitHubTemplates/docs-use-mdbook/issues/new) or submit PRs。
 
 docs-use-mdbook follows the [Contributing](CONTRIBUTING.md) specification。
 
@@ -116,11 +116,11 @@ docs-use-mdbook follows the [Contributor Covenant](http://contributor-covenant.o
 
 [MIT © Bruce Maa.](LICENSE)
 
-[github-action-image]: https://github.com/GithubTemplate/docs-use-mdbook/workflows/mdbook/badge.svg
-[github-repo-url]: https://github.com/GithubTemplate/docs-use-mdbook
+[github-action-image]: https://github.com/GitHubTemplates/docs-use-mdbook/actions/workflows/main.yml/badge.svg
+[github-repo-url]: https://github.com/GitHubTemplates/docs-use-mdbook/actions/workflows/main.yml
 [license-image]: https://img.shields.io/badge/license-MIT-green.svg
-[github-repo-star-image]: https://img.shields.io/github/stars/GithubTemplate/docs-use-mdbook.svg?style=social
+[github-repo-star-image]: https://img.shields.io/github/stars/GitHubTemplates/docs-use-mdbook.svg?style=social
 [use-this-template]: https://img.shields.io/badge/-use%20this%20template-brightgreen.svg
-[generate]: https://github.com/GithubTemplate/docs-use-mdbook/generate
+[generate]: https://github.com/GitHubTemplates/docs-use-mdbook/generate
 [standard-readme-image]: https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square
 [standard-readme-url]: https://github.com/RichardLitt/standard-readme
