@@ -18,9 +18,9 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: Setup mdBook
-        uses: peaceiris/actions-mdbook@v1
-        with:
-          mdbook-version: 'latest'
+      uses: peaceiris/actions-mdbook@v1
+      with:
+        mdbook-version: 'latest'
     - name: mdBook build
       run: mdbook build
     - name: publish docs
