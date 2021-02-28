@@ -1,20 +1,13 @@
-name: GithubRepositoryTemplate
+name: "mdbook"
 
 on:
   push:
     branches: 
       - master
-    paths:
-      - '!**.md'
-  pull_request:
-    branches: 
-      - master
-    paths:
-      - '!**.md'
 
 jobs:
   build:
-    name: Build
+    name: publish
     strategy:
       matrix:
         runs-on: [ubuntu-latest, macOS-latest, windows-latest]
@@ -24,21 +17,19 @@ jobs:
 
     steps:
     - uses: actions/checkout@v1
-    - name: Run a one-line script
-      run: echo Hello, world!
-    - name: Run a multi-line script
+    - name: Setup mdBook
+        uses: peaceiris/actions-mdbook@v1
+        with:
+          mdbook-version: 'latest'
+    - name: mdBook build
+      run: mdbook build
+    - name: publish docs
       run: |
-        echo Add other actions to build,
-        echo test, and deploy your project.
-        echo GITHUB_WORKFLOW: $GITHUB_WORKFLOW
-        echo GITHUB_RUN_ID: $GITHUB_RUN_ID
-        echo GITHUB_RUN_NUMBER: $GITHUB_RUN_NUMBER
-        echo GITHUB_ACTION $GITHUB_ACTION
-        echo GITHUB_ACTOR $GITHUB_ACTOR
-        echo GITHUB_REPOSITORY $GITHUB_REPOSITORY
-        echo GITHUB_EVENT_NAME $GITHUB_EVENT_NAME
-        echo GITHUB_REF $GITHUB_REF
-    - name: Hello world
-      uses: actions/hello-world-javascript-action@v1
-      with:
-        who-to-greet: 'Github Repository Template'
+        git config user.name "${GITHUB_ACTOR}"
+        git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
+        if [ "`git status -s`" ]
+        then
+          git add -A
+          git commit -am "Auto publish: ${{ steps.vars.outputs.commit_msg }} with $GITHUB_WORKFLOW on $GITHUB_RUN_NUMBER"
+        fi  
+        git push

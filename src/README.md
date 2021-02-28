@@ -1,21 +1,23 @@
-# 使用mdbook构建文档站点
+# Github 仓库模板
 
 [![Github Actions][github-action-image]][github-repo-url]
 [![license][license-image]](LICENSE)
 [![Github Star][github-repo-star-image]][github-repo-url]
 [![standard-readme compliant][standard-readme-image]](standard-readme-url)
-[![ViewCount](http://hits.dwyl.com/GitHubTemplates/docs-use-mdbook.svg)][github-repo-url]
+[![ViewCount](http://hits.dwyl.com/GitHubTemplates/github-repository-template.svg)][github-repo-url]
 
 [背景](#背景) | [介绍](#介绍) | [使用](#使用) | [示例](#示例) | [相关仓库](#相关仓库) | [维护者](#维护者) | [如何贡献](#如何贡献) | [协议](#协议) | [English](README.en-US.md)
 
 ## 背景
 
-使用[mdbook](https://rust-lang.github.io/mdBook/index.html)自动构建文档站点。
+您可以生成具有与现有仓库相同的目录结构和文件的新仓库。如果有什么想法，欢迎来[讨论](https://github.com/GithubTemplate/github-repository-template/discussions)。
+
+[GitHub 说明地址](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template)
 
 ## 介绍
 
 ```
-docs-use-mdbook
+github-repository-template
 ├── .github
 │   ├── COMMIT_CONVENTION.md
 │   ├── ISSUE_TEMPLATE
@@ -85,12 +87,12 @@ docs-use-mdbook
 
 ## 使用
 
-点击[![使用这个模板][use-this-template]][generate]按钮，一键复制到自己的GitHub仓库。
+点击[![使用这个模板][use-this-template]][generate]按钮，一键生成标准GitHub仓库。
 
 或者使用`gh`命令行创建项目
 
 ```
-gh repo create myRepository -p GithubTemplate/docs-use-mdbook
+gh repo create myRepository -p GithubTemplate/github-repository-template
 ```
 
 ## 示例
@@ -99,7 +101,8 @@ gh repo create myRepository -p GithubTemplate/docs-use-mdbook
 
 ## 相关仓库
 
-- [mdbook](https://github.com/rust-lang/mdBook) 
+- [standard-readme](https://github.com/RichardLitt/standard-readme) — 一个标准README样式建议的仓库。
+- [Angular.js](https://github.com/angular/angular.js/blob/master/CONTRIBUTING.md) — Angular.js仓库贡献的编写规范
 
 ## 维护者
 
@@ -107,21 +110,21 @@ gh repo create myRepository -p GithubTemplate/docs-use-mdbook
 
 ## 如何贡献
 
-非常欢迎你的加入！[提一个 Issue](https://github.com/GithubTemplate/docs-use-mdbook/issues/new) 或者提交一个 Pull Request。
+非常欢迎你的加入！[提一个 Issue](https://github.com/GithubTemplate/github-repository-template/issues/new) 或者提交一个 Pull Request。
 
-docs-use-mdbook 遵循 [Contributing](CONTRIBUTING.md) 编写规范。
+Github-Repository-Template 遵循 [Contributing](CONTRIBUTING.md) 编写规范。
 
-docs-use-mdbook 遵循 [Contributor Covenant](http://contributor-covenant.org/version/1/3/0/) 行为规范。
+Github-Repository-Template 遵循 [Contributor Covenant](http://contributor-covenant.org/version/1/3/0/) 行为规范。
 
 ## 协议
 
 [MIT © Bruce Maa.](LICENSE)
 
-[github-action-image]: https://github.com/GithubTemplate/docs-use-mdbook/workflows/mdbook/badge.svg
-[github-repo-url]: https://github.com/GithubTemplate/docs-use-mdbook
+[github-action-image]: https://github.com/GithubTemplate/github-repository-template/workflows/GithubRepositoryTemplate/badge.svg
+[github-repo-url]: https://github.com/GithubTemplate/github-repository-template
 [license-image]: https://img.shields.io/badge/license-MIT-green.svg
-[github-repo-star-image]: https://img.shields.io/github/stars/GithubTemplate/docs-use-mdbook.svg?style=social
+[github-repo-star-image]: https://img.shields.io/github/stars/GithubTemplate/github-repository-template.svg?style=social
 [use-this-template]: https://img.shields.io/badge/-use%20this%20template-brightgreen.svg
-[generate]: https://github.com/GithubTemplate/docs-use-mdbook/generate
+[generate]: https://github.com/GithubTemplate/github-repository-template/generate
 [standard-readme-image]: https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square
 [standard-readme-url]: https://github.com/RichardLitt/standard-readme

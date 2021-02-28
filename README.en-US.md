@@ -1,23 +1,20 @@
-# Github Repository Template
+# use mdbook build docs website
 
 [![Github Actions][github-action-image]][github-repo-url]
 [![license][license-image]](LICENSE)
 [![Github Star][github-repo-star-image]][github-repo-url]
 [![standard-readme compliant][standard-readme-image]](standard-readme-url)
-[![ViewCount](http://hits.dwyl.com/GitHubTemplates/github-repository-template.svg)][github-repo-url]
 
 [Background](#background) | [Introduction](#introduction) | [Usage](#usage) | [Examples](#examples) | [Related Efforts](#related-efforts) | [Maintainers](#maintainers) | [Contributing](#contributing) | [License](#license) | [中文](README.md)
 
 ## Background
 
-You can generate a new repository with the same directory structure and files as an existing repository. If you have some idea, welcome to [discussion](https://github.com/GithubTemplate/github-repository-template/discussions).
-
-[GitHub Template Docs](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template)
+use [mdbook](https://rust-lang.github.io/mdBook/index.html) build docs website auto.
 
 ## Introduction
 
 ```
-github-repository-template
+docs-use-mdbook
 ├── .github
 │   ├── COMMIT_CONVENTION.md
 │   ├── ISSUE_TEMPLATE
@@ -32,7 +29,7 @@ github-repository-template
 ├── CONTRIBUTING.md
 ├── LICENSE
 ├── README.md
-├── README.zh-CN.md
+├── README.en-US.md
 ```
 
 ### 详细介绍
@@ -87,12 +84,12 @@ github-repository-template
 
 ## Usage
 
-click[![use this template][use-this-template]][generate]button，create a standard github repository quickly。
+click[![use this template][use-this-template]][generate]button, copy this repository to your GitHub.
 
 or use GitHub cli `gh`
 
 ```
-gh repo create myRepository -p GithubTemplate/github-repository-template
+gh repo create myRepository -p GithubTemplate/docs-use-mdbook
 ```
 
 ## Examples
@@ -101,8 +98,7 @@ Generally, the open source repository need to have some examples or codes for us
 
 ## Related Efforts
 
-- [standard-readme](https://github.com/RichardLitt/standard-readme) — A standard style for README files.
-- [Angular.js](https://github.com/angular/angular.js/blob/master/CONTRIBUTING.md) — The CONTRIBUTING of Angular.js.
+- [mdbook](https://github.com/rust-lang/mdBook) 
 
 ## Maintainers
 
@@ -110,21 +106,21 @@ Generally, the open source repository need to have some examples or codes for us
 
 ## Contributing
 
-Feel free to dive in![Open an Issue](https://github.com/GithubTemplate/github-repository-template/issues/new) or submit PRs。
+Feel free to dive in![Open an Issue](https://github.com/GithubTemplate/docs-use-mdbook/issues/new) or submit PRs。
 
-Github-Repository-Template follows the [Contributing](CONTRIBUTING.md) specification。
+docs-use-mdbook follows the [Contributing](CONTRIBUTING.md) specification。
 
-Github-Repository-Template follows the [Contributor Covenant](http://contributor-covenant.org/version/1/3/0/) Code of Conduct。
+docs-use-mdbook follows the [Contributor Covenant](http://contributor-covenant.org/version/1/3/0/) Code of Conduct。
 
 ## License
 
 [MIT © Bruce Maa.](LICENSE)
 
-[github-action-image]: https://github.com/GithubTemplate/github-repository-template/workflows/GithubRepositoryTemplate/badge.svg
-[github-repo-url]: https://github.com/GithubTemplate/github-repository-template
+[github-action-image]: https://github.com/GithubTemplate/docs-use-mdbook/workflows/mdbook/badge.svg
+[github-repo-url]: https://github.com/GithubTemplate/docs-use-mdbook
 [license-image]: https://img.shields.io/badge/license-MIT-green.svg
-[github-repo-star-image]: https://img.shields.io/github/stars/GithubTemplate/github-repository-template.svg?style=social
+[github-repo-star-image]: https://img.shields.io/github/stars/GithubTemplate/docs-use-mdbook.svg?style=social
 [use-this-template]: https://img.shields.io/badge/-use%20this%20template-brightgreen.svg
-[generate]: https://github.com/GithubTemplate/github-repository-template/generate
+[generate]: https://github.com/GithubTemplate/docs-use-mdbook/generate
 [standard-readme-image]: https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square
 [standard-readme-url]: https://github.com/RichardLitt/standard-readme
